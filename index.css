@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body html {
+  height: 100%;
+}
+
+body {
+  margin: 100px auto;
+  width: 600px;
+  text-align: left;
+  background-color: #0c4a6e;
+}
+
+p {
+  margin: 4px 16px 3px 15px;
+}
+
+button {
+  padding: 9px 17px 9px 15px;
+  width: 191px;
+  height: 42px;
+  margin-top: 51px;
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  box-shadow: 0 0 2px #fbbf24, 0 0 2px #fbbf24, 0 0 2px #fbbf24;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background: #f7d581;
+  transform: translate(0em, 0.13em);
+}
+
+hr {
+  width: 446px;
+  margin: 35px auto;
+  border: solid 1px #0284c7;
+}
+
+.passwords {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.container {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  padding: 115px 52px;
+  border-radius: 5px;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.bg-color1 {
+  background-color: #0369a1;
+}
+
+.bg-color2 {
+  background-color: #0284c7;
+}
+
+.bg-color3 {
+  background-color: #fbbf24;
+}
+
+.text-color1 {
+  color: #fffbeb;
+}
+
+.text-color2 {
+  color: #fbbf24;
+}
+
+#first-pass-box,
+#second-pass-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 211px;
+  height: 39px;
+  border-radius: 6px;
+}
+
+#text {
+  margin-top: 10px;
+  margin-left: 2px;
+}
